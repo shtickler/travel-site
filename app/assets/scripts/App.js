@@ -1,2 +1,4 @@
 import '../styles/styles.css'
-alert("Ryo is the best.  By the way, the sky is blue!");
+if (module.hot) {
+    module.hot.accept()
+}

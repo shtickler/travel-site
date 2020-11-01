@@ -14,10 +14,21 @@
         margin-right: auto;
         margin-bottom: .6rem;
         @mixin atSmall {
+<<<<<<< HEAD
+=======
+            position: relative;
+            top: 8px;
+>>>>>>> testimonials
             margin-right: .5rem;
             margin-left: 0;
             margin-bottom: 0;
             display: inline-block;
         }
+<<<<<<< HEAD
+=======
+    }
+    &--blue {
+        color: $mainBlue;
+>>>>>>> testimonials
     }
 }
